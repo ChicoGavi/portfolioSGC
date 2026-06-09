@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@import './assets/fonts/space_grotesk/stylesheet.css';
+
+
+@theme{
+  --color-primary: #A855F7;
+  --color-secondary: #06B6D4;
+  --color-tertiary: #3B82F6;
+  --color-neutral: #03000A;
+
+  --font-custom: "SpaceGrotesk", sans-serif;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./assets/fonts/space_grotesk/SpaceGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
