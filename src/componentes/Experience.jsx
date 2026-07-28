@@ -12,13 +12,14 @@ function Experience({refExperience, experience}) {
                 </div>
 
                 <div className="relative w-full max-w-4xl mx-auto">
-                    {/*MAIN VERTICAL LINE HERE*/}
                     <div className="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-primary"></div>
 
-                    {/*CARDS HERE*/}
+
                     {
                         experience.map((experience) => (
+
                             experience.id % 2 === 1 ?
+
                                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mb-16 relative">
                                     <div className="absolute left-6 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-secondary rounded-full shadow-[0_0_12px_rgba(34,197,94,0.8)] z-10 mt-6 md:mt-0"></div>
                                     <div className="w-full md:w-1/2 pl-16 md:pl-0 md:pr-12 flex justify-start md:justify-end">

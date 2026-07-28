@@ -11,6 +11,7 @@ import {useNavSearch} from "./hooks/useNavSearch.js";
 import estudios from "./utils/estudios.js";
 import skills from "./utils/skills.js";
 import experience from "./utils/experience.js";
+import certification from "./utils/certifications.js";
 
 
 
@@ -42,7 +43,11 @@ function App() {
           refSkills={(nodeHTML) => addRefs('skills', nodeHTML)}
           skills={skills}
       />
-      <Certs refCerts = {(nodeHTML) => addRefs('certs', nodeHTML)} />
+      <Certs
+          refCerts = {(nodeHTML) => addRefs('certs', nodeHTML)}
+          certs = {certification}
+
+      />
       <Contact refContact = {(nodeHTML) => addRefs('contact', nodeHTML)} />
     </>
   )

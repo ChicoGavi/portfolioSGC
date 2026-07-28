@@ -10,10 +10,10 @@ function Contact({refContact}) {
                 <div className="w-16 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
             </div>
 
-            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="max-w-5xl mx-auto flex flex-col  grid-cols-1 md:grid-cols-2 gap-12">
 
-                {/* Columna Izquierda: Información de contacto */}
-                <div className="space-y-4">
+
+                <div className="space-y-4  ">
                     {[
                         { icon: '📧', label: 'EMAIL', value: 'san03gaviria@protonmail.com', link: 'mailto:san03gaviria@protonmail.com' },
                         { icon: 'in', label: 'LINKEDIN', value: 'Santiago Gaviria', link: 'https://www.linkedin.com/in/santiago-gaviria-c/' },
@@ -30,19 +30,11 @@ function Contact({refContact}) {
                         </a>
 
 
+
                     ))}
                 </div>
 
-                {/* Columna Derecha: Formulario */}
-                <form className="space-y-4">
-                    <input type="text" placeholder="Your Name *" className="w-full bg-[#0a0a0f] border border-gray-800 p-4 rounded-xl focus:border-secondary outline-none transition-all" />
-                    <input type="email" placeholder="Email Address *" className="w-full bg-[#0a0a0f] border border-gray-800 p-4 rounded-xl focus:border-secondary outline-none transition-all" />
-                    <textarea placeholder="Message *" rows="4" className="w-full bg-[#0a0a0f] border border-gray-800 p-4 rounded-xl focus:border-secondary outline-none transition-all"></textarea>
 
-                    <button className="w-full bg-primary hover:bg-tertiary text-white font-bold py-4 rounded-xl transition-all flex items-center justify-center gap-2">
-                        <span>Send Message</span>
-                    </button>
-                </form>
 
             </div>
         </section>

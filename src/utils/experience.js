@@ -1,55 +1,72 @@
+
+
+
 const experience = [
     {
         id: 1,
-        title: 'Auxiliar Administrativo TIC',
-        company: 'Audifarma S.A',
-        date: '2026 - Actual',
+        title: 'System Administrator',
+        company: 'Vivero Maracay SAS',
+        date: '2026-2027',
         from: 'Pereira, Colombia',
         current: true,
-        description: `Soporte Tecnico N1, Diagnóstico oportuno de equipos de cómputo, laptops, impresoras, Gestión de Inventario TIC.`
+        description: 'As a SysAdmin Intern, I lead the digital transformation and technology initiatives for the business.' +
+            ' My responsibilities include project management and requirements gathering for the development of a custom inventory ERP software. ' +
+            'I also optimize internal operations through process mapping (BPMN 2.0), support the technical implementation of electronic invoicing, and scale the company\'s ' +
+            ' digital presence by managing its SEO, Google My Business listing, and social media.'
     },
+
     {
         id: 2,
-        title: 'Consultor Freelancer',
+        title: 'Freelancer Consulting',
         company: 'Santiago Gaviria',
         date: '2024-2026',
         from: 'Pereira, Colombia',
         current: true,
-        description: ' He brindado asesorias a diferentes emprendimientos y empresas MiPymes en Pereira en el sector TI.' +
-            'Implementacion de Infraestructura, Mantenimientos a equipos de computo, Seguridad Informatica basada en la normativa 27001, Desarrollo de Software a la Medida'
+        description: ' I have provided consulting services to various startups and SMEs in Pereira in the IT sector' +
+            'Infrastructure implementation, computer equipment maintenance, IT security based on ISO 27001, and custom software development.'
     },
     {
         id: 3,
+        title: 'Auxiliar Administrativo TIC',
+        company: 'Audifarma S.A',
+        date: '2026',
+        from: 'Pereira, Colombia',
+        current: false,
+        description: 'Technical Support N1, Timely diagnosis of computer equipment, laptops, printers, ICT Inventory Management.'
+    },
+
+    {
+        id: 4,
         title: 'Fundador y Lider Semillero Veritas',
         company: 'Fundacion Universitaria Comfamiliar Risaralda',
         date: '2024-2026',
         from: 'Pereira, Colombia',
         current: false,
-        description: 'Lidero un centro de innovación especializado en IA, nube y seguridad ofensiva, integrando la academia con la industria global. ' +
-            'Coordinó equipos multifuncionales y alianzas internacionales para fortalecer el ecosistema tecnológico en Pereira. A través de mentoría y gestión ágil, transformo talento local en profesionales de clase mundial con impacto regional comprobado.'
+        description: 'I led an innovation center specializing in AI, cloud computing, and offensive security, integrating academia with global industry. ' +
+            'I coordinated cross-functional teams and international partnerships to strengthen the technology ecosystem in Pereira. ' +
+            'Through mentorship and agile management, I transformed local talent into world-class professionals with a proven regional impact.'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Gestor Tecnico',
         company: 'ON/OFF Tu Aliado Digital',
         date: '2024',
         from: 'Pereira, Colombia',
         current: false,
-        description: 'Soporte Asistencial a Usuario Final, Ventas B2C, Soporte Aplicativos, ' +
-            'Analista de Credito, Servicio Al Cliente'
+        description: 'End-User Support, B2C Sales, Application Support, Credit Analyst, Customer Service'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Desarrollador VBA',
         company: 'Vivero Maracay SAS',
         date: '2022',
         from: 'Pereira, Colombia',
         current: false,
-        description: 'Implemente y Lidere el desarrollo de un sistema de Inventarios Viverista usando el modulo de Desarrollador de Excel,' +
-            'Mediante el lenguaje Visual Basic For Excel, fue una pasantia para proyecto de grado con una duracion de 6 meses.'
+        description: 'I implemented and led the development of a nursery inventory system using the Excel Developer module, using the Visual Basic For Excel language. This was a 6-month internship for my degree project.'
     }
-
 ]
+
+
 
 
 export default experience

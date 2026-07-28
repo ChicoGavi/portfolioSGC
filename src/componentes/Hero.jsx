@@ -1,4 +1,6 @@
+
 import heroImage from '/home/elprincipemestizo/WebstormProjects/Personal/portfolio_react/src/assets/hero_img_animada.png'
+import { TypeAnimation } from 'react-type-animation';
 
 function Hero({refHero, callback}) {
     return (
@@ -24,8 +26,24 @@ function Hero({refHero, callback}) {
                         </h1>
 
                         <div className="flex items-center space-x-2 text-lg sm:text-2xl font-mono text-purple-300/90">
-                            <span className="w-2.5 h-2.5 rounded-full bg-purple-500 inline-block animate-pulse"></span>
-                            <h2>System Administrator<span className="animate-pulse font-light">|</span></h2>
+                            <TypeAnimation
+                                sequence={[
+                                    'System Administrator',
+                                    1500,
+                                    'Software Developer',
+                                    1500,
+                                    'Cybersecurity Enthusiast',
+                                    2000
+
+                                ]}
+                                wrapper="span"
+                                speed={50}
+                                style={{ fontSize: '', display: 'inline-block' }}
+                                repeat={Infinity}
+
+                            />
+
+
                         </div>
 
                         <p className="font-custom  font-bold sm:text-base text-gray-400  tracking-wide">
@@ -48,7 +66,9 @@ function Hero({refHero, callback}) {
                                     <line x1="16" y1="17" x2="8" y2="17"/>
                                     <polyline points="10 9 9 9 8 9"/>
                                 </svg>
-                                <span>Download CV</span>
+                                <a href={'https://drive.google.com/file/d/1RbpJGYAVcnCBS38oNvreCt2wbIMQRU3w/view?usp=drive_link'} target="_blank" rel="noopener noreferrer">
+
+                                    Download CV</a>
                             </a>
                         </div>
                     </div>

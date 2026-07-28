@@ -31,11 +31,6 @@ function Skills({refSkills, skills}) {
                     </div>
                 ))}
 
-
-
-                {/* Nota: Repite la estructura anterior cambiando el icono, título y skills.
-        Para los bordes laterales de las tarjetas (como en tu imagen), puedes agregar
-        'border-l-4 border-l-[#A855F7]' a cada tarjeta según el color que prefieras. */}
             </div>
 
 
