@@ -10,12 +10,12 @@ const skills = [
     },
     {
         title: 'Cloud',
-        tools: ['AWS','IBM Cloud', 'DigitalOcean']
+        tools: ['AWS', 'DigitalOcean']
     },
     {
         title: 'DevOps',
         tools: ['Docker', 'Kubernetes', 'Git', 'Github', 'CI/CD',
-        'Agile/Scrum', 'OpenShift', 'Istio']
+        'Agile/Scrum']
     },
     {
         title: 'Cybersecurity',

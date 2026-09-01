@@ -8,8 +8,8 @@ const studies = [
     },
     {
         title: 'Full Stack JavaScript Developer',
-        description: 'IBM',
-        date: '2026',
+        description: 'Platzi',
+        date: '2026 - 2027',
         from: 'Remote',
         current: true
     },
