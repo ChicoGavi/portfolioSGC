@@ -1,5 +1,5 @@
 
-import heroImage from '/home/elprincipemestizo/WebstormProjects/Personal/portfolio_react/src/assets/hero_img_animada.png'
+import heroImage from "../assets/hero_img_animada.png";
 import { TypeAnimation } from 'react-type-animation';
 
 function Hero({refHero, callback}) {
