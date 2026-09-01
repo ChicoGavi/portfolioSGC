@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
 
-const useProjects = () => {
+const useProjects =  () =>  {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch('https://api.github.com/users/ChicoGavi/repos')
+        fetch('https://api.github.com/users/ChicoGavi/repos', { cache: "no-store"})
             .then(res => res.json())
             .then(data => setProjects(data))
             .catch(err => console.log(err));
